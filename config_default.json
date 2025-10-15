@@ -1,0 +1,39 @@
+{
+    "app_name": "Reporteador",
+    "version": "2.0.0",
+    "modules": {
+        "CCM": {
+            "id": 58,
+            "name": "CCM",
+            "enabled": true
+        },
+        "PRR": {
+            "id": 57,
+            "name": "PRR",
+            "enabled": true
+        },
+        "SOL": {
+            "id": 59,
+            "name": "SOL",
+            "enabled": false
+        }
+    },
+    "download_settings": {
+        "max_workers": 3,
+        "delay": 1.0,
+        "chunk_size": 8192,
+        "direct_download": true,
+        "timeout": 600
+    },
+    "paths": {
+        "downloads": "descargas",
+        "backup": "backup",
+        "optimized": "optimized",
+        "assignments": "ASIGNACIONES"
+    },
+    "ui_settings": {
+        "theme": "superhero",
+        "window_size": "1100x800",
+        "min_size": "900x700"
+    }
+}

@@ -1,0 +1,12 @@
+pandas>=1.0.0
+openpyxl
+xlrd
+chardet
+xlwt
+requests==2.31.0
+requests_ntlm
+python-dotenv
+pyarrow
+rich
+tksheet==7.2.1
+ttkbootstrap==1.10.1
